@@ -1,0 +1,88 @@
+@import "var.scss";
+@import "universal.scss";
+@import "content.scss";
+@import "hamburger.scss";
+@import "media-queries.scss";
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@font-face {
+  font-family: pinkfloyd;
+  src: url(../fonts/pinkfloyd.ttf);
+  font-weight:normal;
+}
+
+/* colors bg */
+
+.primary-bg-color{
+  background-color: $primary-color;
+}
+
+.accent-bg-color{
+  background-color: $accent-color;
+}
+
+.trans-black-bg {
+  background-color: rgba(0,0,0,.5);
+}
+/* colors */
+.primary-color{
+  color: $primary-color;
+}
+
+.accent-color{
+  color: $accent-color;
+}
+
+/* fonts */
+
+.primary-font{
+  font-family: $primary-font;
+}
+
+.pink-floyd{
+  font-family: $pinkfloyd;
+}
+
+/* font sizes */
+
+.xs-font{
+  font-size:$xs-font;
+}
+.sm-font{
+  font-size:$sm-font;
+}
+.md-font{
+  font-size:$md-font;
+}
+.lg-font{
+  font-size:$lg-font;
+}
+.xl-font{
+  font-size:$xl-font;
+}
+/* heights */
+
+.xs-height{
+  height:$xs-height;
+}
+
+.sm-height{
+  height:$sm-height;
+}
+
+.md-height{
+  height:$md-height;
+}
+
+.lg-height{
+  height:$lg-height;
+}
+
+.xl-height{
+  height:$xl-height;
+}
+
+.view-height{
+  height:100vh;
+}

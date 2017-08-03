@@ -1,0 +1,138 @@
+// universal styles
+.block {
+  display:block;
+}
+
+.inline-block {
+  display:inline-block;
+}
+
+.fill {
+  height:100%;
+  width:100%;
+}
+
+.fill-height{
+  height:100%;
+}
+
+.image-fill{
+  background-size:cover;
+  background-position: center;
+}
+
+.transparent-bg {
+  background :rgba(#000000, 0.75);
+}
+
+// flex-box
+
+.flex {
+  display:flex;
+}
+
+.align-flex-end {
+  align-items:flex-end;
+}
+
+.align-flex-start {
+  align-items:flex-start;
+}
+
+.align-flex-center {
+  align-items: center;
+}
+
+.align-space-around {
+  align-items: space-around;
+}
+
+.align-space-between {
+  align-items: space-between;
+}
+
+.justify-flex-end {
+  justify-content:flex-end;
+}
+
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-around{
+  justify-content: space-around;
+}
+
+.flex-column {
+  flex-direction:column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+// fonts
+
+.pinkfloyd-ttf {
+  font-family: $pinkfloyd;
+}
+
+.xs-font{
+  font-size: $xs-font;
+}
+
+.sm-font{
+  font-size: $sm-font;
+}
+
+.md-font{
+  font-size:$md-font;
+}
+
+.lg-font{
+  font-size:$lg-font;
+}
+
+.xl-font{
+  font-size:$xl-font;
+}
+
+// colors
+
+.white{
+  color:#fff;
+}
+
+.black {
+  color:#00000;
+}
+
+.white-bg{
+  background-color: #fff;
+}
+
+.black-bg {
+  background-color:#000000;
+}
+
+.blue-bg {
+  background-color: blue;
+}
+
+.green-bg {
+  background-color: green;
+}
+
+.purple-bg {
+  background-color: purple;
+}
+
+.accent-color {
+  color:$accent-color;
+}
+
+// info
