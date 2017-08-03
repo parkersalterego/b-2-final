@@ -48,13 +48,19 @@ $('.circle-1').click(function(){
   $('.album-info-2').addClass('close-album-info');
   $('.album-info-3').addClass('close-album-info');
   $('.album-info-4').addClass('close-album-info');
+  // album-text
+  $('.album-text-1').addClass('text-visible');
+  $('.album-text-2').removeClass('text-visible');
+  $('.album-text-3').removeClass('text-visible');
+  $('.album-text-4').removeClass('text-visible');
+
 });
 
-$('.close-button-1').click(function(){
-  $('.slide-1').addClass('slide-out-left');
-  $('.record-1').addClass('record-slide-out-left');
-  $('.album-info-1').addClass('close-album-info');
-});
+// $('.close-button-1').click(function(){
+//   $('.slide-1').addClass('slide-out-left');
+//   $('.record-1').addClass('record-slide-out-left');
+//   $('.album-info-1').addClass('close-album-info');
+// });
 
 $('.circle-2').click(function(){
   // slides
@@ -75,13 +81,18 @@ $('.circle-2').click(function(){
   $('.album-info-1').addClass('close-album-info');
   $('.album-info-3').addClass('close-album-info');
   $('.album-info-4').addClass('close-album-info');
+  // album-text
+  $('.album-text-2').addClass('text-visible');
+  $('.album-text-1').removeClass('text-visible');
+  $('.album-text-3').removeClass('text-visible');
+  $('.album-text-4').removeClass('text-visible');
 });
 
-$('.close-button-2').click(function(){
-  $('.slide-2').addClass('slide-out-left');
-  $('.record-2').addClass('record-slide-out-left');
-  $('.album-info-2').addClass('close-album-info');
-});
+// $('.close-button-2').click(function(){
+//   $('.slide-2').addClass('slide-out-left');
+//   $('.record-2').addClass('record-slide-out-left');
+//   $('.album-info-2').addClass('close-album-info');
+// });
 
 $('.circle-3').click(function(){
   // slides
@@ -102,13 +113,18 @@ $('.circle-3').click(function(){
   $('.album-info-1').addClass('close-album-info');
   $('.album-info-2').addClass('close-album-info');
   $('.album-info-4').addClass('close-album-info');
+  // album-text
+  $('.album-text-3').addClass('text-visible');
+  $('.album-text-1').removeClass('text-visible');
+  $('.album-text-2').removeClass('text-visible');
+  $('.album-text-4').removeClass('text-visible');
 });
 
-$('.close-button-3').click(function(){
-  $('.slide-3').addClass('slide-out-right');
-  $('.record-3').addClass('record-slide-out-right');
-  $('.album-info-4').addClass('close-album-info');
-});
+// $('.close-button-3').click(function(){
+//   $('.slide-3').addClass('slide-out-right');
+//   $('.record-3').addClass('record-slide-out-right');
+//   $('.album-info-4').addClass('close-album-info');
+// });
 
 $('.circle-4').click(function(){
   // slides
@@ -129,13 +145,18 @@ $('.circle-4').click(function(){
   $('.album-info-1').addClass('close-album-info');
   $('.album-info-2').addClass('close-album-info');
   $('.album-info-3').addClass('close-album-info');
+  // album-text
+  $('.album-text-4').addClass('text-visible');
+  $('.album-text-1').removeClass('text-visible');
+  $('.album-text-2').removeClass('text-visible');
+  $('.album-text-3').removeClass('text-visible');
 });
 
-$('.close-button-4').click(function(){
-  $('.slide-4').addClass('slide-out-right');
-  $('.record-4').addClass('record-slide-out-right');
-  $('.album-info-4').addClass('close-album-info');
-});
+// $('.close-button-4').click(function(){
+//   $('.slide-4').addClass('slide-out-right');
+//   $('.record-4').addClass('record-slide-out-right');
+//   $('.album-info-4').addClass('close-album-info');
+// });
 
 // image rotation cicles
 
