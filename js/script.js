@@ -18,6 +18,3 @@
 // 		$(".nav-icon1").removeClass("black");
 // 	}
 // });
-document.getElementById("Save").onclick = function fun(){
-document.querySelector('.hello').scrollIntoView({ behavior: 'smooth' });
-}
